@@ -1,0 +1,26 @@
+--------------------------------TRABALHANDO COM BRANCH'S-----------------------------------------
+Criar uma branch e subir arquivos para ela
+1.Cria e seta o diretório para dentro de uma branch:git checkout -b nome-da-branch.
+2.Adicione mudanças:git add .  ou git add nome-do-pacote/arquivo
+3.Faz um commit: git commit -m "commit"
+4.Sobe a branch para o git: git push origin nome-da-branch
+5.Atualizar a branch: git checkout 
+
+Apagar branch após ser mageada 
+1.Seta para a branch main: git checkout main
+2.Apaga branch criada na máquina: git branch -D nome-da-branch
+3.Apagar no remoto: git push origin --delete nome-da-branch.
+
+Atualiza alteração feita na branch main
+1.git checkout main
+2.git pull
+
+Comando para listar todas as branch 
+1.git branch: branch locais
+2.git branch -r: só branch remotas
+3.git branch -a: lista locais e remotas
+
+
+checkout - confira
+pull = puxa
+branch = filial ou ramo

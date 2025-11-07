@@ -1,0 +1,20 @@
+--------------------------------------PROJETO LETTERBOOKS-----------------------------------------
+Descriçõa: projeto de avalição de livros
+
+Minha parte do projeto: Atuenticação com Email e Senha, Livro, Autor.
+
+Banco de dados: PostgreSQL
+ORM: Prisma
+
+Módulos 
+1.Livro.
+2.Usuario.
+3.Autor.
+4.Avaliação.
+5.Lista.
+
+OVBSERVAÇÕES
+Obs: separar o nome dos arquivos por ponto
+ex: author.Controller.ts
+Obs:
+
