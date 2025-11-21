@@ -1,0 +1,9 @@
+------------------------------------------Projeto agenta-----------------------------------------
+
+PRIMEIRA
+
+1.Rota para registro
+2.Criado o controller AuthController com a função register
+3.Criado o authModel com o Schema para login/register 
+4.Criado a class Auth dentro do authModel 
+5.Criad0 a lógica para validação de dados vindo do registro.

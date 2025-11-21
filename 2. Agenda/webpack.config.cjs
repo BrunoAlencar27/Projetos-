@@ -10,14 +10,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,          // regra para JS
+        test: /\.js$/, // regra para JS
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
         },
       },
       {
-        test: /\.css$/,         // regra para CSS
+        test: /\.css$/, // regra para CSS
         use: ['style-loader', 'css-loader'],
       },
     ],
